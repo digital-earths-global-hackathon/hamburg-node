@@ -5,9 +5,6 @@ header_menu_title: "Accommodation"
 header_menu: true
 ---
 
-
-#### Accommodation
-
 To help your search for accommodation in Hamburg, you can find a list of **[hotel options](https://owncloud.gwdg.de/index.php/s/c4HlclYFUgFGf9Q)**.
 For easier orientation, the list of hotels can also be viewed on **[Google Maps](https://maps.app.goo.gl/NJGnAixVdawyriht8).**
 

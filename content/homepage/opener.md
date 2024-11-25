@@ -3,16 +3,8 @@ title: "Welcome"
 weight: 1
 ---
 
-**[Opening text needs to be updated!!!]**
+The **Hamburg Node of the Digital Earths Global Hackathon** is part of the **World Climate Research Programme (WCRP) Global km-Scale Hackathon**, an initiative designed to advance the analysis and development of high-resolution Earth-system models. 
 
-This will be the Hamburg node of the Digital Earths Global Hackathon. 
+The Hamburg event, taking place from **May 12 to 16, 2025**, will gather participants to collaborate on hacking, bug-fixing, and learning in a dynamic, hands-on environment. This hackathon is part of the larger WCRP effort to push the boundaries of climate system modeling and digital innovation globally.
 
-[-> add link to overview page]
-
-The nextGEMS project has entered the production phase and the first global 30-year storm-resolving simulations of a future climate are ready to be analysed. Simulations from both the ICON and the IFS model are available. 
-
-<!-- Some funding for [travel support](stipends_detail) (max. of 1000 € per person) is available for early career scientists. -->
-
-<!-- The hazard hackathon will be the 5th km-scale hackathon in the nextGEMS project. -->
-
-Please join us for one week of hacking, finding bugs, fixing bugs, and a lot of fun from 12th to 16th May 2025 in Hamburg, Germany.
+For more details about the global hackathon and its objectives, please visit the [official WCRP event page](https://www.wcrp-esmo.org/activities/wcrp-global-km-scale-hackathon-2025).

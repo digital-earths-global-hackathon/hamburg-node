@@ -4,8 +4,9 @@ weight: 3
 header_menu: true
 header_menu_title: "Travel support"
 navigation_menu_title: "Travel support"
-detailed_page_path: stipends_detail/
-detailed_page_homepage_content: true
+# detailed_page_path: stipends_detail/
+# detailed_page_homepage_content: true
 ---
 
-As for the previous hackathons, nextGEMS again offers travel support for up to 15 early career researchers. Click [-> here](stipends_detail) for more details on what is covered and how to apply.
+
+The organizers are exploring options to offer travel support specifically for early-career researchers to encourage their participation in the Hamburg Node of the Digital Earths Global Hackathon. If your ability to participate depends on receiving travel assistance, please visit the [current registration page]([#](https://events.mpimet.mpg.de/event/86/)) and fill out the relevant section to indicate your need. 
