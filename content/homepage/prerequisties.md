@@ -12,4 +12,4 @@ Participants are expected to have basic knowledge of:
 - Linux terminal
 - Python, including Matplotlib, Numpy, Xarray
 - Concepts of data visualization
-- nHandling of global 2D and 3D data in Climate science or similar fields
+- Handling of global 2D and 3D data in Climate science or similar fields
