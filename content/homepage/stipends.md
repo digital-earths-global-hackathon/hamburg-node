@@ -8,7 +8,7 @@ navigation_menu_title: "Travel support"
 # detailed_page_homepage_content: true
 ---
 
-Supported by the projects [nextGEMS](https://nextgems-h2020.eu) and [WarmWorld](https://www.warmworld.de), we offer travel support specifically for early-carrer researchers to encourage their participation in the Hamburg Node of the Global km-scale Hackathon. If your ability to participate depends on receiving travel assistance, please write an [approach us](mailto:global-hackathon@express.converia.de) by **March 21, 2025**.
+Supported by the projects [nextGEMS](https://nextgems-h2020.eu) and [WarmWorld](https://www.warmworld.de), we offer travel support specifically for early-career researchers to encourage their participation in the Hamburg Node of the Global km-scale Hackathon. If your ability to participate depends on receiving travel assistance, please write an [approach us](mailto:global-hackathon@express.converia.de) by **March 23, 2025**.
 
 *Eligibility criteria*
 
@@ -19,8 +19,8 @@ Supported by the projects [nextGEMS](https://nextgems-h2020.eu) and [WarmWorld](
 *Documents needed*
 
 - Proof of current enrollment and latest BSc / MSc certificates
-- Brief statement about your motivation in attending the global hackathon and scientific topics of interest.
-- Brief statement about your programme language skills.
+- Letter of motivation (inkl. scientific interest and programme language skills)
+- Letter of support from a supervisor or equivalent, stating the relevance of the applicant's participation
 
-**Application procedure:** Please refer in the subject of the Email that you apply for travel support and send in the above mentioned documents. We will get back to you latest by the end of March 2025.
+**Application procedure:** Please indicate in the subject of the Email that you apply for travel support and send in the above mentioned documents in **one single (concatenated) PDF** file. We will get back to you latest by the end of March 2025.
 
