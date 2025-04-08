@@ -1,11 +1,11 @@
 ---
 title: "Travel support"
 weight: 3
-header_menu: true
+header_menu: false
 header_menu_title: "Travel support"
 navigation_menu_title: "Travel support"
 # detailed_page_path: stipends_detail/
-# detailed_page_homepage_content: true
+detailed_page_homepage_content: false
 ---
 
 Supported by the projects [nextGEMS](https://nextgems-h2020.eu) and [WarmWorld](https://www.warmworld.de), we offer travel support specifically for early-carrer researchers to encourage their participation in the Hamburg Node of the Global km-scale Hackathon. If your ability to participate depends on receiving travel assistance, please [write us](mailto:global-hackathon@express.converia.de) by **March 21, 2025**.
