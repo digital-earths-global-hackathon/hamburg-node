@@ -3,7 +3,7 @@ title: First steps - How to hack
 ---
 
 
-To make the most of your time analyzing data and minimize technical hiccups along the way, it's essential to start off on the right foot. This guide lays out the key first steps and to-dos to help you set up everything properly and get started quickly.
+To make the most of your time analyzing data and minimize technical hiccups along the way, it's key to begin with a solid setup. This guide lays out first steps and to-dos to help you set up everything properly and get started quickly.
 
 In this documentation, we’ll walk you through the basic setup and essential technical preparations. For more detailed explanations or deeper dives, we’ll point you to relevant additional resources. Take a moment to read through everything carefully—it’ll save you time and effort later on!
 
