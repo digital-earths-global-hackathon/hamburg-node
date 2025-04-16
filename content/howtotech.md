@@ -29,8 +29,19 @@ Information about the file system or **where to store what on Levante**
 
 ## 3. Set up your python environment
 
-[*Input needed...*]
+We have curated an "official" Python environment for the hackathon, which should provide all the necessary packages.
+We recommend using [`micromamba`](http://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html) to create and install the environment:
+```sh
+wget "https://raw.githubusercontent.com/digital-earths-global-hackathon/tools/refs/heads/main/python_envs/environment.yaml"
+micromamba env create -f environment.yaml
+```
 
+After successful installation, you can activate the environment and install an [IPython kernel](https://ipython.readthedocs.io/en/latest/install/kernel_install.html) for it.
+This allows you to conveniently use the environment from any JupyerLab instance (e.g. the [DKRZ JupyerHub](http://jupyterhub.dkrz.de/hub/home)):
+```sh
+micromamba activate easy
+python3 -m ipykernel install --name global-hackathon-easy --user
+```
 
 ### Simulation
 
