@@ -34,10 +34,9 @@ Information about the file system or **where to store what on Levante**
 
 ### Simulation
 
-Simulations are stored in [????]
-
 We are using the [Intake](https://easy.gems.dkrz.de/Processing/Intake/index.html) catalog to store a diversity of data lists. Intake uses xarray for easy data access in python and allows for powerful searches.
 
+**The url to the catalog and usage examples will follow shortly before the hackathon.**
 
 ## 4. Start your analysis!
 
