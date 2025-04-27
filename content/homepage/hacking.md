@@ -1,5 +1,5 @@
 ---
-title: "Hacking Plan"
+title: "Science Plan"
 weight: 4
 header_menu: true
 ---
