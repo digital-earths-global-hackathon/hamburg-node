@@ -1,10 +1,10 @@
 ---
 title: "Science Plan"
-weight: 4
+weight: 3
 header_menu: true
 ---
 
-To minimze technical issues and spend as most time as possible for analysing data, please check out the [starting point]({{% ref howtotech %}}) and read through the documentation carefully.
+To minimze technical issues and spend as most time as possible for analysing data, please check out the [**starting point**]({{% ref howtotech %}}) and read through the documentation carefully.
 
 During the Hackathon, you can either build a science team, join an existing one, explore in loose collaborations with others or work on your own.
 

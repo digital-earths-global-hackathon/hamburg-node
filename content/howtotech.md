@@ -3,6 +3,8 @@ title: First steps - How to hack
 ---
 
 
+During the Hackathon climate data from [km-scale simulations](https://digital-earths-global-hackathon.github.io/hk25/simulations/) with ICON, IFS-FESOM and other models will be provided in a [**Healpix format**](https://easy.gems.dkrz.de/Processing/healpix/index.html) at different zoom levels. Jupyter Notebooks will be provided to explain the basics of the data handling. First examples can already be found on [**easy.gems**](https://easy.gems.dkrz.de/Processing/healpix/healpix_starter.html). Participants can then develop their own Jupyter Notebooks or python scripts to analyze and plot the data.
+
 To make the most of your time analyzing data and minimize technical hiccups along the way, it's key to begin with a solid setup. This guide lays out first steps and to-dos to help you set up everything properly and get started quickly.
 
 In this documentation, we’ll walk you through the basic setup and essential technical preparations. For more detailed explanations or deeper dives, we’ll point you to relevant additional resources. Take a moment to read through everything carefully—it’ll save you time and effort later on!
