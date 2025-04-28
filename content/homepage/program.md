@@ -1,6 +1,6 @@
 ---
 title: "Program"
-weight: 8
+weight: 6
 header_menu_title: "Program"
 header_menu: true
 ---
@@ -66,7 +66,7 @@ Lunch is self organized. Take this opportunity to get some fresh air and somethi
 |  1.30 pm |  Hacking          |         |
 |  3.30 pm | *Coffee break*    | library |
 |    4  pm | Hacking           |         |
-| | *Open end/ further hacking* |
+| | *Open end/ further hacking* / SE* |
 
 **Friday**, May 16
 
@@ -75,7 +75,7 @@ Lunch is self organized. Take this opportunity to get some fresh air and somethi
 |     9 am | Closing I         | 022/023 |
 | 10.30 am | *Coffee break*    | library |
 |    11 am | Closing II        | 022/023 |
-| 12.30 pm | *official end*    | |
+| |  *End around 1 pm*    | |
 
 ---
 
@@ -84,11 +84,12 @@ Lunch is self organized. Take this opportunity to get some fresh air and somethi
 | When          | What  |
 | ------------- | ----- |
 | WED, 11.30 am | Visit to DKRZ |
-| WED, 4.30 pm  | Visit to the wind tunnel laboratory |
+| WED,  4.30 pm | Visit to the wind tunnel laboratory |
 | THU, 11.30 am | Visit to DKRZ |
+| THU,  6.15 pm | [german only] Lecture about [Transdisciplinary climate change research](https://mpimet.mpg.de/jubilaeum/veranstaltungen-fuer-alle/details?tx_seminars_pi1%5BshowUid%5D=2488&cHash=f2be2bbf32ac8bd4c94fc2b38c300a46) |
 
 * *During the event, we will hang out sign-up sheets. Meeting point is in the Foyer (Ground Floor) 10 minutes prior the event.*
 
 ---
 
-*updated Apr, 14 2025*
+*updated Apr, 28 2025*
