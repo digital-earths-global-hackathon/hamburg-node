@@ -32,18 +32,43 @@ Information about the file system or **where to store what on Levante**
 ## 3. Set up your python environment
 
 We have curated an "official" Python environment for the hackathon, which should provide all the necessary packages.
-We recommend using [`micromamba`](http://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html) to create and install the environment:
-```sh
-wget "https://raw.githubusercontent.com/digital-earths-global-hackathon/tools/refs/heads/main/python_envs/environment.yaml"
-micromamba env create -f environment.yaml
-```
 
-After successful installation, you can activate the environment and install an [IPython kernel](https://ipython.readthedocs.io/en/latest/install/kernel_install.html) for it.
-This allows you to conveniently use the environment from any JupyerLab instance (e.g. the [DKRZ JupyerHub](http://jupyterhub.dkrz.de/hub/home)):
-```sh
-micromamba activate easy
-python3 -m ipykernel install --name global-hackathon-easy --user
-```
+Get the **environment.yaml** file:
+
+`wget "https://raw.githubusercontent.com/digital-earths-global-hackathon/tools/refs/heads/main/python_envs/environment.yaml"`
+
+Make sure that no other modules are loaded:
+
+`module purge`
+
+Load the **python3/unstable** module:
+
+`module load python3/unstable`
+
+We recommend using [`micromamba`](http://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html) 
+to create and install the environment. mamba and micromamba are the same code base, only build options vary.
+
+As the environment is quite large at 4GB, it is recommended that you place it in the work area of your project. Note: <path-to-your-environment-folder> means e.g. /work/xy2222/z123456/easy
+
+Create the software environment (this takes some time):
+
+`mamba env create -p <path-to-your-environment-folder> -f environment.yaml`
+
+Activate the environment:
+
+`mamba activate easy`
+
+If the activation doesn't work use: `mamba activate <path-to-your-environment-folder>`
+
+Now 'mamba env list' should display 'easy' as activated environment (*)
+
+After activating the "easy" environment you can create an [IPython kernel](https://ipython.readthedocs.io/en/latest/install/kernel_install.html) 
+to conveniently use the environment in [DKRZ JupyerHub](https://jupyterhub.dkrz.de):
+
+`python3 -m ipykernel install --name global-hackathon-easy --user`
+
+Now you can select the "global-hackathon-easy" kernel in JupyerHub. If you can't see the kernel in the kernel list press the _"refresh the file browser"_ button (round arrow) on the left panel of jupyterhub.
+
 
 ### Simulation
 
