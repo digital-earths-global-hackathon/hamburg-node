@@ -16,6 +16,7 @@ In this documentation, we’ll walk you through the basic setup and essential te
 To get access to the data you will need to get an [**DKRZ user account**](https://docs.dkrz.de/doc/getting_started/getting-a-user-account/dkrz-user-account.html#dkrz-user-account).
 You need to [register](https://docs.dkrz.de/doc/getting_started/getting-a-user-account/dkrz-user-account.html#creating-a-new-account-from-scratch) here. Mention, that you are part of the global hackathon and [join an existing project](https://docs.dkrz.de/doc/getting_started/getting-a-user-account/dkrz-user-account.html#join-existing-project). The ID for the project is *bb1153*.
 
+**If you are associated with any other project at DKRZ (e.g. because you are working at MPI-M), please use that project for your work. *bb1153* is there to provide access to outside users and the resources are shared by several hundred users.**
 
 ## 2. Log in
 
@@ -28,7 +29,6 @@ Information about the file system or **where to store what on Levante**
 * /work/ for data you need more than 2 weeks (model output/…), project quota, NO BACKUP
 * /scratch/ for temporary files, 15 TB quota - DELETION AFTER TWO WEEKS, NO BACKUP
 
-
 ## 3. Set up your python environment
 
 We have curated an "official" Python environment for the hackathon, which should provide all the necessary packages.
@@ -37,40 +37,48 @@ Get the **environment.yaml** file:
 
 `wget "https://raw.githubusercontent.com/digital-earths-global-hackathon/tools/refs/heads/main/python_envs/environment.yaml"`
 
-Make sure that no other modules are loaded:
+You can either use your own conda/mamba installation, e.g. [`micromamba`](http://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html) 
+to create and install the environment, or use one of the system's conda environments. In the following we will assume your conda/mamba/micromamba to be called `mamba`. This works for the system's environment. If you are already using another variant, please adjust accordingly.
+
+### To load one of the system's conda environments:
+
+If you don't have your own mamba installation, you can use the system's python environment, which secretly is a conda installation with mamba in it.
 
 `module purge`
-
-Load the **python3/unstable** module:
-
 `module load python3/unstable`
 
-We recommend using [`micromamba`](http://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html) 
-to create and install the environment. mamba and micromamba are the same code base, only build options vary.
-
-As the environment is quite large at 4GB, it is recommended that you place it in the work area of your project. Note: <path-to-your-environment-folder> means e.g. /work/xy2222/z123456/easy
+### Create the environment from the environment.yaml file
 
 Create the software environment (this takes some time):
 
-`mamba env create -p <path-to-your-environment-folder> -f environment.yaml`
+`mamba env create -f environment.yaml`
 
 Activate the environment:
 
 `mamba activate easy`
 
-If the activation doesn't work use: `mamba activate <path-to-your-environment-folder>`
+This might print an error message telling you to first run `mamba init bash` or `mamba init zsh`. In that case, follow the instructions, and then try again.
 
-Now 'mamba env list' should display 'easy' as activated environment (*)
+Now `mamba env list` should display `easy` as activated environment (*)
 
 After activating the "easy" environment you can create an [IPython kernel](https://ipython.readthedocs.io/en/latest/install/kernel_install.html) 
 to conveniently use the environment in [DKRZ JupyerHub](https://jupyterhub.dkrz.de):
 
 `python3 -m ipykernel install --name global-hackathon-easy --user`
 
-Now you can select the "global-hackathon-easy" kernel in JupyerHub. If you can't see the kernel in the kernel list press the _"refresh the file browser"_ button (round arrow) on the left panel of jupyterhub.
+Now you can select the "global-hackathon-easy" kernel in JupyerHub. If you can't see the kernel in the kernel list, press the _refresh the file browser_ button (round arrow) on the left panel of jupyterhub.
 
+### If you are running into issues with the quota in your home directory
 
-### Simulation
+If your home is pretty full, the environment might break your home quota. If this is an issue, you can place it in the work area of your project. Python will then load substantially slower, though. 
+
+`mamba env create -f environment.yaml -p <path-to-your-environment-folder>`
+
+Note: `<path-to-your-environment-folder>` means something like `/work/bb1153/${USER}/easy`. You might now need to provide the full path to the environment folder in the `mamba activate` command. 
+
+ `mamba activate <path-to-your-environment-folder>`
+
+## Simulation
 
 We are using the [Intake](https://easy.gems.dkrz.de/Processing/Intake/index.html) catalog to store a diversity of data lists. Intake uses xarray for easy data access in python and allows for powerful searches.
 
@@ -79,7 +87,6 @@ We are using the [Intake](https://easy.gems.dkrz.de/Processing/Intake/index.html
 ## 4. Start your analysis!
 
 Whether to create your own or built up on existing [notebooks](https://github.com/digital-earths-global-hackathon/hk25-teams), everything should be set to start your analysis!
-
 
 Enjoy the hacking!
 
