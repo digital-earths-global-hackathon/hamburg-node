@@ -31,20 +31,20 @@ Information about the file system or **where to store what on Levante**
 
 ## 3. Set up your python environment
 
-We have curated an "official" Python environment for the hackathon, which should provide all the necessary packages.
+We have curated an *official* Python environment for the hackathon, which should provide a good working stack. We do not provide a central installation, as this is incompatible with self-installing packages (`pip install ...`), and often leads to conflicts.
 
 Get the **environment.yaml** file:
 
 `wget "https://raw.githubusercontent.com/digital-earths-global-hackathon/tools/refs/heads/main/python_envs/environment.yaml"`
 
-You can either use your own conda/mamba installation, e.g. [`micromamba`](http://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html) 
-to create and install the environment, or use one of the system's conda environments. In the following we will assume your conda/mamba/micromamba to be called `mamba`. This works for the system's environment. If you are already using another variant, please adjust accordingly.
+You can either use your own conda/mamba installation, e.g. [micromamba](http://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html) to create and install the environment, or use one of the system's conda environments. In the following we will assume your conda/mamba/micromamba to be called `mamba`. This works for the system's environment. If you are already using another variant, please adjust accordingly.
 
 ### To load one of the system's conda environments:
 
 If you don't have your own mamba installation, you can use the system's python environment, which secretly is a conda installation with mamba in it.
 
 `module purge`
+
 `module load python3/unstable`
 
 ### Create the environment from the environment.yaml file
@@ -57,7 +57,7 @@ Activate the environment:
 
 `mamba activate easy`
 
-This might print an error message telling you to first run `mamba init bash` or `mamba init zsh`. In that case, follow the instructions, and then try again.
+This might print an error message telling you to first run `mamba init` (or similar). In that case, follow the instructions, and then try again.
 
 Now `mamba env list` should display `easy` as activated environment (*)
 
@@ -66,9 +66,9 @@ to conveniently use the environment in [DKRZ JupyerHub](https://jupyterhub.dkrz.
 
 `python3 -m ipykernel install --name global-hackathon-easy --user`
 
-Now you can select the "global-hackathon-easy" kernel in JupyerHub. If you can't see the kernel in the kernel list, press the _refresh the file browser_ button (round arrow) on the left panel of jupyterhub.
+Now you can select the "global-hackathon-easy" kernel in JupyterHub. If you can't see the kernel in the kernel list, press the _refresh the file browser_ button (round arrow) on the left panel of jupyterhub.
 
-### If you are running into issues with the quota in your home directory
+#### If you are running into issues with the quota in your home directory
 
 If your home is pretty full, the environment might break your home quota. If this is an issue, you can place it in the work area of your project. Python will then load substantially slower, though. 
 
@@ -82,7 +82,7 @@ Note: `<path-to-your-environment-folder>` means something like `/work/bb1153/${U
 
 We are using the [Intake](https://easy.gems.dkrz.de/Processing/Intake/index.html) catalog to store a diversity of data lists. Intake uses xarray for easy data access in python and allows for powerful searches.
 
-**The url to the catalog and usage examples will follow shortly before the hackathon.**
+See https://digital-earths-global-hackathon.github.io/catalog/ for the landing page of the catalog and links to usage examples.
 
 ## 4. Start your analysis!
 
