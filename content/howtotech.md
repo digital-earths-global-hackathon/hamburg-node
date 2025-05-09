@@ -43,9 +43,10 @@ You can either use your own conda/mamba installation, e.g. [micromamba](http://m
 
 If you don't have your own mamba installation, you can use the system's python environment, which secretly is a conda installation with mamba in it.
 
-`module purge`
-
-`module load python3/unstable`
+```bash
+module purge
+module load python3/unstable
+```
 
 ### Create the environment from the environment.yaml file
 
