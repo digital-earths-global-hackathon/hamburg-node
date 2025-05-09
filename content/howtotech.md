@@ -78,13 +78,11 @@ Note: `<path-to-your-environment-folder>` means something like `/work/bb1153/${U
 
  `mamba activate <path-to-your-environment-folder>`
 
-## Simulation
-
-We are using the [Intake](https://easy.gems.dkrz.de/Processing/Intake/index.html) catalog to store a diversity of data lists. Intake uses xarray for easy data access in python and allows for powerful searches.
-
-See https://digital-earths-global-hackathon.github.io/catalog/ for the landing page of the catalog and links to usage examples.
-
 ## 4. Start your analysis!
+
+We are using an [Intake](https://easy.gems.dkrz.de/Processing/Intake/index.html) catalog to store a diversity of data lists. Intake uses xarray for easy data access in python and allows for powerful searches.
+
+Visit for [the landing page of the catalog](https://digital-earths-global-hackathon.github.io/catalog/) and for a quick overview of what data is available and links to usage examples.
 
 Whether to create your own or built up on existing [notebooks](https://github.com/digital-earths-global-hackathon/hk25-teams), everything should be set to start your analysis!
 
