@@ -6,7 +6,7 @@ header_menu: true
 ---
 The Hamburg Node of the Digital Earths Global Hackathon will run from **Monday afternoon, May 12, to Friday lunchtime, May 16, 2025**.
 
-Lunch is self organized. Take this opportunity to get some fresh air and something to bite. Some recommendations for lunch options close by can be found [-> here]({{% ref lunch_options %}}).
+**Lunch is self organized**. Take this opportunity to get some fresh air and something to bite. Some recommendations for lunch options close by can be found [-> here]({{% ref lunch_options %}}).
 
 ---
 
@@ -22,7 +22,7 @@ Lunch is self organized. Take this opportunity to get some fresh air and somethi
 |      | - Simulation  |         |
 |      | - Logistics             |         |
 | 5 pm | - Group distribution    |         |
-| 5.30 pm | *Ice Breaker*        | 022/023 |
+| 5.30 pm | *Ice Breaker*        | 022/023 foyer |
 | | *End around 7 pm* |
 
 
@@ -37,8 +37,8 @@ Lunch is self organized. Take this opportunity to get some fresh air and somethi
 |  1.30 pm |  Hacking          |         |
 |  3.30 pm | *Coffee break*    | library |
 |    4  pm | Hacking           |         |
-|  5.15 pm | Keynote talk by [Caroline Muller (ISTA, Vienna)](https://ist.ac.at/en/research/muller-group/) | 022/023 |
-|          |  *Data-driven investigation of deep convective storms* |
+|  5.15 pm | Keynote talk by [Caroline Muller (ISTA, Vienna)](https://ist.ac.at/en/research/muller-group/) | [MLK 6 Hs B](https://maps.app.goo.gl/ejrctifHV1hyonhz6) |
+|          |  [*Data-driven investigation of deep convective storms*]({{% ref keynote %}}) |
 | | *Open end/ further hacking* |
 
 **Wednesday**, May 14
@@ -53,7 +53,7 @@ Lunch is self organized. Take this opportunity to get some fresh air and somethi
 |  3.30 pm | *Coffee break*    | library |
 |    4  pm | Hacking / SE*     |         |
 |  6.30 pm | *Hackathon dinner*| [UeberQuell](https://maps.app.goo.gl/tqKNn5b4jYk7hFYb6) |
-|          | *Science teams discussion - Improving collaboration across nodes* | |
+|  7.30 pm | *Town Hall - Improving scientific collaboration across nodes* | |
 
 **Thursday**, May 15
 
@@ -92,4 +92,4 @@ Lunch is self organized. Take this opportunity to get some fresh air and somethi
 
 ---
 
-*updated Apr, 28 2025*
+*updated May, 11 2025*
