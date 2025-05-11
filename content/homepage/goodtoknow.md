@@ -1,7 +1,7 @@
 ---
 title: "Good to know"
 weight: 9
-header_menu: true
+header_menu: false
 ---
 
 ##### Transport passes for the week
@@ -19,10 +19,3 @@ For the duration of the Hackathon a [weekly 24/7 ticket](https://shop.hvv.de/pro
 ##### Lunch Options
 
 Lunches will be self organized by everyone. If you want to go for lunch close to the hackathon location, [-> here]({{% ref lunch_options %}}) are some suggestions for restaurants. Of course, there are many more options. You can also ask your local hackathon colleages for recommendations.
-
----
-
-##### 836th Port Anniversary Hamburg 2025
-
-If you can make it the weekend before the hackathon to Hamburg: From May 9 to 11, Hamburg will celebrate its port anniversary. A festivity filled with attractions, performances and a maritime vessel parade. For more information [click here](https://www.hafen-hamburg.de/en/experience/port-anniversary/).
-
