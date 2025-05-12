@@ -22,7 +22,7 @@ The Hamburg Node of the Digital Earths Global Hackathon will run from **Monday a
 |      | - Simulation  |         |
 |      | - Logistics             |         |
 | 5 pm | - Group distribution    |         |
-| 5.30 pm | *Reception*        | 022/023 foyer |
+| 5.30 pm | Group photo afterwards *Reception*    | 022/023 foyer |
 | | *End around 7 pm* |
 
 
